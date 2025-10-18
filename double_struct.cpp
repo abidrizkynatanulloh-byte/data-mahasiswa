@@ -60,7 +60,7 @@ void hasil(int jumlah, pelajar p[]){
         cout << "NILAI AKHIR: "<<NilaiAkhir(p[i].us)<<endl;
         cout<<"=============================="<<endl;
     }
-}//testing
+}
 
 int main() {
     int jumlah;
