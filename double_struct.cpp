@@ -15,7 +15,7 @@ float NilaiAkhir(nilai us){
     return (us.uas * 0.4) + (us.uts * 0.35) + (us.tugas * 0.25);
 }
 
-void tampil(int jumlah, pelajar p[]){
+void input(int jumlah, pelajar p[]){
     for(int i=0;i<jumlah;i++){
         cout<<"==========DATA SISWA KE-"<<i+1<<"=========="<<endl;
         cout<<"masukkan nama:";
@@ -65,7 +65,7 @@ int main() {
     cout << "masukkan jumlah pelajar: ";
     cin >> jumlah;
     pelajar p[jumlah];
-    tampil(jumlah, p);
+    input(jumlah, p);
     hasil(jumlah, p);
     return 0;
 }
