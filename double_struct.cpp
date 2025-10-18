@@ -39,7 +39,7 @@ void input(int jumlah, pelajar p[]){
         cout << "masukkan nilai TUGAS: ";
         cin >> p[i].us.tugas;
     }
-}//oiiii
+}
 
 void hasil(int jumlah, pelajar p[]){
     for(int i=0;i<jumlah;i++){
@@ -59,8 +59,8 @@ void hasil(int jumlah, pelajar p[]){
         cout << "Nilai TUGAS: "<<p[i].us.tugas<<endl;
         cout << "NILAI AKHIR: "<<NilaiAkhir(p[i].us)<<endl;
         cout<<"=============================="<<endl;
-    }//tes git auto punnch
-}
+    }
+}//testing
 
 int main() {
     int jumlah;
